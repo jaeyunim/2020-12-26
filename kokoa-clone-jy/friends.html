@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends - Kokoa Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Services</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column"></div>
+            <span style="padding-right: 60px">19:53</span>
+        <div class="status-bar__column">
+            <span>97%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <a href="settings.html"><span><i class="fas fa-cog fa-lg"></i></span></a>
+        </div>
+    </header>
+
+    <a id="friends-display-link">
+        <i class="fas fa-info-circle"></i>
+        Friends' Namess Display
+        <i class="fas fa-chevron-right fa-sm"></i>
+    </a>
+
+    <main class="friends-screen">
+        <div class="user-component">
+        <div class="user-component__column">
+            <img src="moon.png" class="user-component__avatar user-component__avatar--xl">
+            <div class="user-component__text">
+                <h4 class="user-component__title">Imjaeyun</h4>
+                <!--<h6 class="user-component__subtitle">this text is whatever</h6>-->
+            </div>
+        </div>
+        <div class="user-component__column"></div>
+        </div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Channel</span>
+                <i class="fas fa-chevron-up fa-sm"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="moon.png" class="user-component__avatar user-component__avatar--sm">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__column__bordering">2</span><i class="fas fa-chevron-right fa-sm"></i>
+                </div>
+                </div>
+        </div>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__link">
+                <a class="nav__a" href="friends.html"><i class="fas fa-user fa-2x"></i></a></li>
+            <li class="nav__link">
+                <span class="nav__notification badge">1</span>
+                <a class="nav__a" href="chats.html"><i class="far fa-comment fa-2x"></i></a></li>
+            <li class="nav__link">
+                <a class="nav__a" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__link">
+                <span class="nav__dot"></span>
+                <a class="nav__a" href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+        </ul>
+    </nav>
+    <script src="https://kit.fontawesome.com/fe51766a85.js" crossorigin="anonymous"></script>
+</body>
+</html>

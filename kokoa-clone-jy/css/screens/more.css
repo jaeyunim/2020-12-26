@@ -1,0 +1,55 @@
+.more.user-component__title{
+    color: rgba(0, 0, 0, 1);
+    font-size: 22px;
+}
+
+.user-component__subtitle__more{
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.5);
+}
+
+.user-component__avatar__more{
+    height: 55px;
+    width: 55px;
+    border-radius: 19px;
+    margin-right: 19px;
+}
+
+.more__introbar{
+    margin-bottom: 20px;
+}
+
+
+
+
+.suggestions__title{
+    padding: 20px 0px;
+    border-top: 1.5px solid rgba(0,0,0,0.4);
+    font-weight: 700;
+}
+
+.find-etc__post__room{
+    width: 62px;
+    height: 58px;
+}
+
+.suggestions__icon__ex1{
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+
+.suggestions__icon{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.suggestions__icon__ks{
+    display: inline;
+}
